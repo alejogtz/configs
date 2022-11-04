@@ -1,5 +1,7 @@
 let mapleader = " "
 
+
+nnoremap <Leader>a bve
 " Edit vimrc faster
 nnoremap <Leader>v :e $MYVIMRC<cr>
 
@@ -100,3 +102,6 @@ nnoremap J mzJ`z
  nnoremap <C-j> 10<C-e>
  nnoremap <C-k> 10<C-y>
  nmap <Leader>s <Plug>(easymotion-s2)
+
+ nnoremap <M-Left> g;<cr>
+ nnoremap <M-Right> g,<cr>

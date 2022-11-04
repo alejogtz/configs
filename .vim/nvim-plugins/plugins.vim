@@ -7,7 +7,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'mhinz/vim-signify'
 
     " tmux
-    Plug 'benmills/vimux'
+    Plug 'preservim/vimux'
     Plug 'christoomey/vim-tmux-navigator'
 
     " NERDTree
@@ -38,7 +38,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'sheerun/vim-polyglot'
     Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
     Plug 'norcalli/nvim-colorizer.lua'
-    Plug 'po/vim-buftabline'
 
 call plug#end()
 
