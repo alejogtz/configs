@@ -41,6 +41,8 @@ alias rubo='rubocop -A '
 
 alias configrc='nvim ~/.vim/'
 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 function findFiles {
     args="-not path '*/node_modules/*' -not -path '*/.git/*'  -not -path '.db/'"
    if [ $# -eq 1 ]; then
