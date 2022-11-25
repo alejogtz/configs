@@ -15,7 +15,8 @@ alias mis='cheat -p personal net-utils'
 
 # Network
 alias ppp="netstat -lnpt"
-alias grepp='grep --binary-files=without-match --exclude-dir={node_modules,log,coverage,tmp,db,bin,.git} -rin'
+alias grepp='grep --color --binary-files=without-match --exclude-dir={node_modules,log,coverage,tmp,db,bin,.git} -rin'
+alias grepi='grep --color --binary-files=without-match --exclude-dir={node_modules,log,coverage,tmp,db,bin,.git} -rn'
 alias grepl='grep --binary-files=without-match --exclude-dir={node_modules,bin,tmp,log,coverage,db,.git} -ril'
 alias findf="find . -type f -not -path '*/node_modules/*' -not -path '*/.git/*' -iname "
 alias find3="find . -mindepth 1 -maxdepth 3 -type f -not -path '*/node_modules/*' -iname "
@@ -28,12 +29,17 @@ alias virc='vi ~/.bashrc'
 alias bashrc='source ~/.bashrc'
 
 alias aliasrc='vi ~/.bash_aliases && source ~/.bashrc'
+alias nexurc='vi ~/.nexu.bash && source ~/.bashrc'
 alias vimrc='vi ~/.vimrc'
 alias v=openVim
 
+alias rub='rubocop -A '
+alias rubo='rubocop -A '
+
+
 # alias findf=findFiles
 
-alias configrc='nvim ~/.config/nvim'
+alias configrc='nvim ~/.vim/'
 
 function findFiles {
     args="-not path '*/node_modules/*' -not -path '*/.git/*'  -not -path '.db/'"
