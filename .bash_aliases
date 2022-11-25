@@ -17,7 +17,7 @@ alias mis='cheat -p personal net-utils'
 alias ppp="netstat -lnpt"
 alias grepp='grep --color --binary-files=without-match --exclude-dir={node_modules,log,coverage,tmp,db,bin,.git} -rin'
 alias grepi='grep --color --binary-files=without-match --exclude-dir={node_modules,log,coverage,tmp,db,bin,.git} -rn'
-alias grepl='grep --binary-files=without-match --exclude-dir={node_modules,bin,tmp,log,coverage,db,.git} -ril'
+alias grepl='grep --binary-files=without-match --exclude-dir={node_modules,bin,tmp,log,coverage,db,.git} -rl'
 alias findf="find . -type f -not -path '*/node_modules/*' -not -path '*/.git/*' -iname "
 alias find3="find . -mindepth 1 -maxdepth 3 -type f -not -path '*/node_modules/*' -iname "
 # alias findd="find . -mindepth 1 -type d -not -path '*/node_modules/*' -iname "
